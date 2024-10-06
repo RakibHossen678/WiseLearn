@@ -66,3 +66,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.clip-wave {
+  clip-path: polygon(0 0, 100% 0, 100% 8%, 52% 94%, 0 83%, 0% 25%);
+
+
+
+
+}
