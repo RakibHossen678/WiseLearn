@@ -1,10 +1,10 @@
-import { Button } from "./components/ui/button";
+import Navbar from "./components/Home/Navbar";
 
 function App() {
   return (
-    <>
-      <Button variant="destructive">Clfick</Button>
-    </>
+    <main className="lg:w-11/12 md:px-4 lg:px-0 mx-auto">
+      <Navbar />
+    </main>
   );
 }
 
