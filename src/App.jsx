@@ -1,4 +1,5 @@
 import Banner from "./components/Home/Banner";
+import Brand from "./components/Home/Brand";
 import Navbar from "./components/Home/Navbar";
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
       <div className="bg-[#FFF2E1] lg:min-h-screen md:pb-7  lg:pb-0">
         <Navbar />
         <Banner />
+      </div>
+      <div className="lg:w-11/12 px-4 md:px-8 lg:px-0 mx-auto">
+        <Brand />
       </div>
     </main>
   );
